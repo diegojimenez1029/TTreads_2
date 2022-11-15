@@ -1,4 +1,4 @@
-package com.example.ttreads2;
+package app.ttreads.diego;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,12 +6,18 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
+
+import com.example.ttreads2.R;
 
 public class MainActivity2 extends AppCompatActivity {
 
      Button Valorarbtn;
      Button Mapabtn;
      Button Catalogobtn;
+     Button Buscarbtn;
+     Button Registrarm;
+     private TextView tv1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +37,7 @@ public class MainActivity2 extends AppCompatActivity {
         Mapabtn.setOnClickListener (new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity2.this, MapaActivity.class);
+                Intent i = new Intent(MainActivity2.this, MapsActivity.class);
                 startActivity(i);
             }
         });
@@ -44,5 +50,39 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        Buscarbtn= (Button) findViewById(R.id.buscarbtn);
+        Buscarbtn.setOnClickListener (new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity2.this, MapaActivity.class);
+                startActivity(i);
+            }
+        });
+
+        Registrarm = (Button) findViewById(R.id.RegistrarM);
+        Registrarm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent (MainActivity2.this,MainActivity1.class);
+                startActivity(i);
+            }
+        });
+
+
+        TextView textView = (TextView)findViewById(R.id.tv1);
+
+        Intent intent =getIntent();
+
+        textView.setText(intent.getStringExtra("nombre"));
+
+
+
+       // String dato = getIntent().getStringExtra("dato");
+        //tv1.setText("Hola"+dato);
+
+
+
+
     }
 }

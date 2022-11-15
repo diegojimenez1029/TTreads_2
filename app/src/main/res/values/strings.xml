@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TTreads 2</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="etNombre1"> Usuario</string>
+    <string name="etNombre2"> Bienvenida</string>
+    <string name="BotonIngresar">Boton Ingresar</string>
 </resources>

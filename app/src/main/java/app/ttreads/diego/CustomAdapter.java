@@ -1,4 +1,4 @@
-package com.example.ttreads2;
+package app.ttreads.diego;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,6 +7,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.ttreads2.R;
 
 import java.util.ArrayList;
 
@@ -27,7 +29,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
         this.dataSet = data;
     }
     @Override
-    public MyViewHolder onCreateViewHolder(ViewGroup parent,
+     public MyViewHolder onCreateViewHolder(ViewGroup parent,
                                            int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.cards_layout, parent, false);
         view.setOnClickListener(CatalogoActivity.myOnClickListener);

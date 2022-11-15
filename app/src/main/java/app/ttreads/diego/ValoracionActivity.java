@@ -1,8 +1,10 @@
-package com.example.ttreads2;
+package app.ttreads.diego;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.ttreads2.R;
 
 public class ValoracionActivity extends AppCompatActivity {
 

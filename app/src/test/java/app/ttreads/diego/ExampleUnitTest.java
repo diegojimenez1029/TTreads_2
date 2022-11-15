@@ -1,4 +1,4 @@
-package com.example.ttreads2;
+package app.ttreads.diego;
 
 import org.junit.Test;
 

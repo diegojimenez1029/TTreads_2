@@ -1,4 +1,4 @@
-package com.example.ttreads2;
+package app.ttreads.diego;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DefaultItemAnimator;
@@ -12,6 +12,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.ttreads2.R;
 
 import java.util.ArrayList;
 

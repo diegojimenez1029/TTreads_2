@@ -1,4 +1,6 @@
-package com.example.ttreads2;
+package app.ttreads.diego;
+
+import com.example.ttreads2.R;
 
 public class MyData {
     static String[] razaArray = {"Basset Hound", "BullDog", "BullTerrier", "Chihuahua", "Gran Danés", "Labrador", "Laika"};
