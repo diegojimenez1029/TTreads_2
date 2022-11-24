@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/fondo"
     android:scrollbarSize="17dp"
-    tools:context="app.ttreads.diego.MainActivity1">
+    tools:context="com.example.ttreads2.MainActivity1">
 
 
     <TextView

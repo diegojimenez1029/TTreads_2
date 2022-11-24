@@ -7,7 +7,7 @@
     android:background="@drawable/fondo"
     android:padding="10dp"
     android:gravity="center"
-    tools:context="app.ttreads.diego.MainActivity1">
+    tools:context="com.example.ttreads2.MainActivity1">
 
     <TextView
         android:id="@+id/tittlelogin"
@@ -58,6 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Contraseña"
+            android:inputType="textPassword"
             android:textColorHint="@color/black"></com.google.android.material.textfield.TextInputEditText>
 
 

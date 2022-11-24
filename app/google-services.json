@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "606621262425",
+    "firebase_url": "https://ttreads-a5dfc-default-rtdb.firebaseio.com",
+    "project_id": "ttreads-a5dfc",
+    "storage_bucket": "ttreads-a5dfc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606621262425:android:eef133531d0160964a4748",
+        "android_client_info": {
+          "package_name": "app.ttreads.diego"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606621262425-chlokqab4sdhi3uqf4ni5h807g1kmam2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDylBiWbFYlPVSPgDDXOqnlweGYwUevLuk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606621262425-chlokqab4sdhi3uqf4ni5h807g1kmam2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

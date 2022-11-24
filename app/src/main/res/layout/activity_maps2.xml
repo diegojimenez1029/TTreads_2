@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="app.ttreads.diego.MapsActivity">
+    tools:context="com.example.ttreads2.MapsActivity">
 
     <TextView
         android:id="@+id/tvMensaje"
@@ -20,7 +20,7 @@
 
     <fragment
         android:id="@+id/fragment"
-        android:name="app.ttreads.diego.FragmentMaps"
+        android:name="com.example.ttreads2.FragmentMaps"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"

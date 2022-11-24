@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo"
-    tools:context="app.ttreads.diego.MainActivity2">
+    tools:context="com.example.ttreads2.MainActivity2">
 
     <TextView
         android:id="@+id/textView3"
@@ -22,20 +22,11 @@
 
 
     <Button
-        android:id="@+id/catalogobtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:text="Catalogo de perros"
-        app:layout_constraintBaseline_toBaselineOf="@+id/valorarbtn"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
         android:id="@+id/valorarbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="168dp"
-        android:layout_marginEnd="28dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="136dp"
         android:text="Valorar App"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -44,14 +35,13 @@
         android:id="@+id/buscarbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="4dp"
         android:layout_marginTop="270dp"
         android:layout_marginBottom="57dp"
         android:text="Buscar alguna mascota"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <Button
         android:id="@+id/btnmapa"
